@@ -6,7 +6,8 @@
 
 //import express from 'express';
 const express = require("express");
-import mongoose from 'mongoose';
+//import mongoose from 'mongoose';
+const mongoose = require("mongoose");
 mongoose.Promise = require('bluebird');
 import config from './config/environment';
 import http from 'http';
